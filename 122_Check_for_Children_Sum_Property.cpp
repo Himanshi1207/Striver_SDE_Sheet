@@ -1,15 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-struct T
-{
-    int val;
-    T *left;
-    T *right;
-    T() : val(0), left(nullptr), right(nullptr) {}
-    T(int x) : val(x), left(nullptr), right(nullptr) {}
-    T(int x, T *left, T *right) : val(x), left(left), right(right) {}
-};
-
+template <typename T>
 class BinaryTreeNode
 {
 public:
